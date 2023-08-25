@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T12:44:07.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LWenkiqB95Ci9IVRZr0s" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T13:28:57.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pNeo-ViqUOytJGkrvO2z" version="21.6.9" type="github">
   <diagram name="第 1 页" id="ebJeQNQ8_hLXaA4WbQeJ">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Comic Sans MS&amp;quot;;&quot;&gt;StandardContext&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UzrP6KG8abcAM1gcjsgf-5" target="UzrP6KG8abcAM1gcjsgf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-5" value="start()" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-6" value="BEFORE_START_EVENT" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=west;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="170" y="20" width="20" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-12" value="SET RESOURCES" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-13" value="SET LOADER, MANAGER" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UzrP6KG8abcAM1gcjsgf-14" target="UzrP6KG8abcAM1gcjsgf-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-14" value="addDefaultMapper()" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-17" value="org.apache.catalina.core.StandardContextMapper" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-18" value="component.start()" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-32" value="loader, logger&lt;br&gt;cluster, realm, resources&lt;br&gt;mapper&lt;br&gt;sub container&lt;br&gt;pipeline&lt;br&gt;&lt;br&gt;&lt;br&gt;manager" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UzrP6KG8abcAM1gcjsgf-26" target="UzrP6KG8abcAM1gcjsgf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-26" value="START_EVENT" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="207" y="294" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-33" value="ContextConfig" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;labelBackgroundColor=default;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="380" y="295" width="88" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;config the context&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="371" y="270" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-36" value="postWelcomFiles()" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-37" value="loadOnStartup(findChildren())" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UzrP6KG8abcAM1gcjsgf-38" value="AFTER_START_EVENT" style="html=1;fontFamily=Comic Sans MS;rounded=0;labelBackgroundColor=default;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="197" y="430" width="153" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
