@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T05:46:17.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="5345KyeJ2U9rAwP_IMco" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T05:58:54.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XYLKWYf4t_Sb0wXRcA6G" version="22.1.18" type="github">
   <diagram name="第 1 页" id="x9T3WgT5xqVPwal4d8os">
-    <mxGraphModel>
+    <mxGraphModel dx="1567" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="50xOonk3pxGguTumSty5-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="-417" width="876" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209" y="-379.3999938964844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="149" y="-505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-2" target="50xOonk3pxGguTumSty5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-8">
+          <mxGeometry x="-0.6533" y="-1" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-2" value="线程池是否停止运行" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="-379" width="194" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-4" value="返回null值" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="438" y="-223" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-7" target="50xOonk3pxGguTumSty5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-10">
+          <mxGeometry x="-0.6152" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-7" target="50xOonk3pxGguTumSty5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-20">
+          <mxGeometry x="-0.0505" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-7" value="线程数太多" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="-233" width="194" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-14" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-2" target="50xOonk3pxGguTumSty5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="-214" as="sourcePoint" />
+            <mxPoint x="496" y="-264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-14">
+          <mxGeometry x="-0.9026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-19" target="50xOonk3pxGguTumSty5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-22">
+          <mxGeometry x="-0.7068" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-19" target="50xOonk3pxGguTumSty5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="50xOonk3pxGguTumSty5-25">
+          <mxGeometry x="-0.5556" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-19" value="该线程是否为&lt;br&gt;可回收线程" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="-87" width="194" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-21" value="限时获取任务" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="438" y="-77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-24" value="阻塞式获取任务" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="-77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-27" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="149" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-24" target="50xOonk3pxGguTumSty5-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-27" y="-29" as="sourcePoint" />
+            <mxPoint x="23" y="-79" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-105" y="24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-21" target="50xOonk3pxGguTumSty5-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349" y="-128" as="sourcePoint" />
+            <mxPoint x="399" y="-178" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="498" y="34" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-33" value="死循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-398" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-35" value="如果未在&lt;font color=&quot;#ff8000&quot;&gt;keepAliveTime&lt;/font&gt;时间内从阻塞队列中获取到任务，则在下次循环时，可能会被回收" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-200" width="372" height="157" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
