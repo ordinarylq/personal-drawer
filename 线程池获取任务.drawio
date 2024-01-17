@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T05:58:54.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XYLKWYf4t_Sb0wXRcA6G" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T06:01:33.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zmeLtWNATHEYrbUkA6qU" version="22.1.18" type="github">
   <diagram name="第 1 页" id="x9T3WgT5xqVPwal4d8os">
     <mxGraphModel dx="1567" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50xOonk3pxGguTumSty5-2" value="线程池是否停止运行" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50xOonk3pxGguTumSty5-2" value="线程池是否停止运行" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="112" y="-379" width="194" height="80" as="geometry" />
         </mxCell>
         <mxCell id="50xOonk3pxGguTumSty5-4" value="返回null值" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -45,7 +45,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50xOonk3pxGguTumSty5-7" value="线程数太多" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50xOonk3pxGguTumSty5-7" value="线程数太多" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="112" y="-233" width="194" height="80" as="geometry" />
         </mxCell>
         <mxCell id="50xOonk3pxGguTumSty5-14" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50xOonk3pxGguTumSty5-2" target="50xOonk3pxGguTumSty5-4">
@@ -75,13 +75,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50xOonk3pxGguTumSty5-19" value="该线程是否为&lt;br&gt;可回收线程" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50xOonk3pxGguTumSty5-19" value="该线程是否为&lt;br&gt;可回收线程" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="112" y="-87" width="194" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="50xOonk3pxGguTumSty5-21" value="限时获取任务" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50xOonk3pxGguTumSty5-21" value="限时获取任务" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="438" y="-77" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="50xOonk3pxGguTumSty5-24" value="阻塞式获取任务" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="50xOonk3pxGguTumSty5-24" value="阻塞式获取任务" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="-165" y="-77" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="50xOonk3pxGguTumSty5-27" value="结束" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -110,6 +110,9 @@
         </mxCell>
         <mxCell id="50xOonk3pxGguTumSty5-35" value="如果未在&lt;font color=&quot;#ff8000&quot;&gt;keepAliveTime&lt;/font&gt;时间内从阻塞队列中获取到任务，则在下次循环时，可能会被回收" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="560" y="-200" width="372" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="50xOonk3pxGguTumSty5-37" value="如果当前线程数超出了corePoolSize且该线程获取任务超时" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fontSize=16;direction=east;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-173" y="-320" width="301" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
