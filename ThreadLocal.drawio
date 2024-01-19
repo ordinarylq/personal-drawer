@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T05:17:23.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.20" etag="m0w6WxacSEj6q3-3cS50" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T05:21:05.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j1D4H5ZcRFZzUjch4N6y" version="22.1.20" type="github">
   <diagram name="第 1 页" id="uHLw3TmJLCXWFf_zV81D">
-    <mxGraphModel>
+    <mxGraphModel dx="921" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-2" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="12" width="223" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-3" value="ThreadLocalMap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-120.25" y="79" width="149.5" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-80.5" y="148" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-80.5" y="187" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-80.5" y="226" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-80.5" y="265" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-34" value="Entry[] table" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-95.5" y="113" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
