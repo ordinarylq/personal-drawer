@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T05:21:05.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j1D4H5ZcRFZzUjch4N6y" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T05:31:29.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qXToxQ60E-luFpuBfw7N" version="22.1.20" type="github">
   <diagram name="第 1 页" id="uHLw3TmJLCXWFf_zV81D">
-    <mxGraphModel dx="921" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="980" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,36 @@
         </mxCell>
         <mxCell id="KVEjDBjLpTc_PZI36SYm-34" value="Entry[] table" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-95.5" y="113" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-36" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="153" width="185" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KVEjDBjLpTc_PZI36SYm-37" target="KVEjDBjLpTc_PZI36SYm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-37" value="Entry" style="whiteSpace=wrap;html=1;align=center;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="157" y="142" width="176" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KVEjDBjLpTc_PZI36SYm-38" target="KVEjDBjLpTc_PZI36SYm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-38" value="WeakReference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="105" y="72" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-39" value="Reference&amp;lt;ThreadLocal&amp;lt;?&amp;gt;&amp;gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-11" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-42" value="弱引用key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="349" y="188.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-43" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;ThreadLocal&amp;lt;?&amp;gt; reference&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="157" y="192" width="176" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-44" value="Object value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="157" y="218" width="176" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KVEjDBjLpTc_PZI36SYm-45" value="强引用value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="349" y="218.5" width="99" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
